@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package calculator_example;
 
-/**
- *
- * @author damip
- */
+import java.util.Scanner;
+
+
 public class Calculator_Example {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+      Scanner keyboard= new Scanner (System.in);
+      int a=0;
+      int b= 0;
+      int resultado=0;
+       
+        System.out.println("Introduce el primer numero: ");
+        a=keyboard.nextInt();
+        System.out.println("Introduce el segundo numero: ");
+        b=keyboard.nextInt();
+        resultado= a+b;
+        System.out.println(resultado);
+        
     }
     
 }
